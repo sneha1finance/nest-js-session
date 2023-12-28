@@ -8,4 +8,13 @@ export class AppService {
   postHello():string{
     return 'Hellow world nut post';
   }
+  patchHello():string{
+    return 'Hellow world nut patch';
+  }
+  putHello():string{
+    return 'Hellow world nut put';
+  }
+  deleteHello():string{
+    return 'Hellow world nut delete';
+  }
 }
